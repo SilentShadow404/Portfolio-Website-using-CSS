@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio-container{
+    display: flex;
+}
+.left-side, .right-side{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side{
+    background-color: #262525;
+    width: 70%;
+    padding-left: 3rem;
+}
+.right-side{
+    background:linear-gradient(-45deg,#3877FF,#262525 70%);
+    width: 30%;
+} 
+.navbar{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    list-style: none;
+}
+.navlist a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+}
+.navlist a:hover{
+    text-decoration-line: underline;
+    background: linear-gradient(#fff,#3877FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.introduction{
+    height: 50%;
+    margin-left: 4rem;;
+   
+}
+#first-intro{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+}
+#first-intro #first-intro2{
+    color: #3573c3;
+}
+#second-intro{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #5db9ee;
+    margin-top: 1%;
+}
+#third-intro{
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 1.1rem;
+    margin-bottom:2rem;
+    margin-right: 25%;
+    line-height: 1.8rem;
+}
+#first-button{
+    font-size: medium;
+    width: 14%;
+    height: 16%;
+    color: #100f10;
+    background-color: #5db9ee;
+    font-weight: 550;
+    border-radius: 0.5rem;
+    border-style: none;
+    cursor: pointer;
+}
+#first-button:hover{
+    background-color: transparent;
+    color: #5db9ee;
+    border: 2px solid #5db9ee;
+    transition: 0.5s ease;
+}
+#second-button{
+    width: 17%;
+    height: 16%;
+    color: #5db9ee;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-size: medium;
+    font-weight: 700;
+    border: 2px solid #5db9ee;
+    cursor: pointer;
+    margin-left: 30px;
+}
+#second-button:hover{
+    background-color: #5db9ee;
+    color: #100f10;
+    transition: 0.5s ease;
+}
+#second-button a{
+    text-decoration: none;
+    color: #5db9ee;
+}
+#second-button:hover a{
+    color: #100f10;
+    transition: 0.5s ease;
+}
+
+#first-button a{
+    text-decoration: none;
+    color: #100f10;
+}
+#first-button:hover a{
+    color: #5db9ee;
+    transition: 0.5s ease;
+}
+
+.profile-icons .fa-brands{
+    color: #bbb;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+.profile-icons .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(#fff,#3877FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.profile-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;    
+}
+
+.design-photo .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.circle1{
+    width: 30rem;
+    background: linear-gradient(90deg, transparent 50%, #262525 50%);
+}
+.circle2{
+    width: 22rem;
+    background-image: url(images/photo\ 3-modified.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 1rem #fff,inset 0 0 1rem #fff,0 0 2rem #3877FF,inset 0 0 2rem #3877FF,0 0 4rem #3877FF,inset 0 0 4rem #3877FF;
+}
+
